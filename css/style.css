@@ -1,0 +1,56 @@
+/* body styling - mostly centering and default style */
+body {
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 18px;
+
+  color: #EBDDEE;
+  background-color: #2D1832;
+}
+
+/* heading styling */
+h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: 'League Spartan', Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+/* paragraph styling */
+p {
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+/* button styling */
+button {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  border-style: none;
+  border-radius: 30px;
+
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'League Spartan', sans-serif;
+
+  color: #2D1832;
+  background-color: #EBDDEE;
+}
+
+/* hover state with transition */
+button:hover {
+  background-color: #C9A2D2;
+
+  transition: 0.3s;
+}
+
+/* active state with transition */
+button:active {
+  color: #EBDDEE;
+  background-color: #E35F75;
+
+  transition: 3ms;
+}
