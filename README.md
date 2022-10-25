@@ -9,3 +9,4 @@ Use prompt() to print a dynamic message to the page.
 Located in js/script.js, line 15.
 
 ### GH Pages
+https://aves-proxy.github.io/cpnt262-a1/
