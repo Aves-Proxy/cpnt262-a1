@@ -3,7 +3,7 @@ const button = document.querySelector("button");
 const para = document.querySelector("p");
   
 const fruit = ["apple", "banana", "mango", "pineapple"];
-let tracker = 4; // kind of an iterator? For working through the array and making sure prompts/text changes make sense
+let tracker = 4; // For counting through the array and making sure prompts/text changes make sense
 
 /* callback function for the event listener */
 const eatFruit = () => {
